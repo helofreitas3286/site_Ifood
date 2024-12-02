@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+:root {
+  --color1:#ea1d2c;
+  --color2: #f1f0f0;
+  --color3:#fff;
+  --color4: #3e3e3e;
+  --color5:#cc1825;
+  --color6:#9eb53e;
+  --color7:#b6d048;
+
+
+  --font-Roboto: "Roboto", sans-serif;
+  --font-Opensans: "Open Sans", sans-serif;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  font-family: var(--font-Opensans);
+
+
+}
+
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: var(--color2);
+    padding: 40px 0;
+}
+   
+.conteiner_cabecalho{
+max-width: 1220px;
+align-items: center;
+flex-grow: 1;
+justify-content: space-between;
+text-align: center;
+display: flex;
+}
+.container_nav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.div{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.div--criarconta{
+  color: var(--color1);
+    font-size: 16px;
+ 
+}
+.div--entrar{
+  border-radius: 6px;
+    color: var(--color3);
+    background-color: #cc1825;
+    font-size: 17px;
+    padding: 10px 25px;
+ 
+}
+.logo{
+    height: 55px;
+}
+.botao_entregador{
+  color: var(--color4);
+  font-family: var(--font-Roboto);
+  font-size: 15px;
+
+
+}
+.botao_Restauranteemarcado{
+  color: var(--color4);
+  font-family: var(--font-Roboto);
+  font-size: 15px;
+}
+.botao_Carreiras{
+  color: var(--color4);
+  font-family: var(--font-Roboto);
+  font-size: 15px;
+}
+.botao_ifoodcards{
+  color: var(--color4);
+  font-family: var(--font-Roboto);
+  font-size: 15px;
+ 
+}
+.site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 60px 30px 0;
+}
+.dados1{
+   font-family: var(--font-Opensans);
+   font-size: 4rem;
+   color: #3e3e3e;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.dados2{
+    font-size: 1rem;
+    color: #3e3e3e;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 320px;
+}
+.banner__card{
+    align-items: start;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    height: 215px;
+    border-radius: 25px;
+    color: var(--color3);
+   font-size: 1rem;
+    text-align: center;
+}
+
+
+.banner__card-restaurante{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: var(--color1);
+    background-image: url(https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png);
+}
+.banner__card--mercado{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+   background-color: var(--color6);
+   background-image:
+   url(https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/market.png);
+}
+.banner__botao{
+    padding: 10px 18px;
+    color: var(--color2);
+    border-radius: 15px;
+    font-size: 1;
+}
+.banner__botao--restaurante{
+    background-color: var(--color5);
+}
+.banner__botao--mercado{
+    background-color: var(--color7);
+}
